@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+    rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightBlog</title>
+</head>
+<body>
+    <header>
+        <!-- the content of the header is in here -->
+         <h1 id="logo">BrightBlog</h1>
+         <nav>
+            <ul id="nav-ul"> <!-- means unordered list-->
+                <li><a href="" class="navbutton">Home</a></li>
+                <li><a href="" class="navbutton">About us</a></li>
+                <li><a href="" class="navbutton">Contact</a></li>
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <div id="main-content">
+            <aside>
+                <section>
+                    <h4>Filter by Month</h4>
+                    <nav>
+                        <ul>
+                            <li><a href=""></a>Filter for January</li>
+                            <li><a href=""></a>Filter for July</li>
+                            <li><a href=""></a>Filter for August</li>
+                        </ul>
+                    </nav>
+
+                </section>
+                <h4>Filter by Category</h4>
+                <nav>
+                    <ul>
+                        <li><a href=""></a>Filter for Dogs</li>
+                        <li><a href=""></a>Filter for Cats</li>
+                        <li><a href=""></a>Filter for Flamingoes</li>
+                    </ul>
+                </nav>
+                <section>
+
+                </section>
+            </aside>
+            <div>
+                <article>
+                    <header>
+                        <!-- Article header goes here -->
+                        <h2>Ten Amusing Facts About Cats</h2>
+                        <h3>Read time: 3 minutes</h3>
+                    </header>
+                    <main>
+                        <p> Cats are great too! </p> <!--paragraph tag-->
+                    
+                                    <!-- Lorem100 tag (can change number to change word count) renders that number of words so can see what it's like-->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime placeat eos, odit at culpa, impedit perspiciatis accusamus voluptatem ut quia ab? Unde nemo consequatur eius omnis, laboriosam iure eos aliquam, maiores explicabo, doloribus hic doloremque? Voluptatibus quia architecto illum, cupiditate, esse iste atque est aut cum aperiam quasi autem officiis?</p>
+                    </main>
+                    <blockquote>
+                        <cite>I also really like <a href="">cats</a> - Maya, 2024</cite>
+                    </blockquote>
+
+                    <footer>
+                        <h2> Author: Maya </h2>
+                        <img src="https://placebear.com/300/250" alt="A picture of a bear">
+                        <!--if using an image from the computer, it needs to be on VS next to this index one so when uploaded it is close by. otherwise can use an online one, but you don't know how long it will be there. alt text shows if there is an issue with the link-->
+                        <h3> Last posted:  Aug 2024</h3>
+                        <a href="https://www.battersea.org.uk/" target="_blank">Rescue Dogs</a>
+                        <!-- target means link opens in a new tab instead of just changing the one you're on-->
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <!-- Article header goes here -->
+                        <h2>Ten Amusing Facts About Dogs</h2>
+                        <h3>Read time: 4 minutes</h3>
+                    </header>
+                    <main>
+                        <p> aren't dogs just the best? </p> <!--paragraph tag-->
+                        <p>There's further text here which needs a new p tag to appear on a new line </p>
+                                    <!-- Lorem100 tag (can change number to change word count) renders that number of words so can see what it's like-->
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime placeat eos, odit at culpa, impedit perspiciatis accusamus voluptatem ut quia ab? Unde nemo consequatur eius omnis, laboriosam iure eos aliquam, maiores explicabo, doloribus hic doloremque? Voluptatibus quia architecto illum, cupiditate, esse iste atque est aut cum aperiam quasi autem officiis?</p>
+                    </main>
+                    <blockquote>
+                        <cite>I love dogs! - Maya, 2024</cite>
+                    </blockquote>
+
+                    <footer>
+                        <h2> Author: Maya </h2>
+                        <img src="https://placebear.com/300/180" alt="A picture of a bear">
+                        <!--if using an image from the computer, it needs to be on VS next to this index one so when uploaded it is close by. otherwise can use an online one, but you don't know how long it will be there. alt text shows if there is an issue with the link-->
+                        <h3> Last posted: Sep 2024</h3>
+                        <a href="https://www.battersea.org.uk/" target="_blank">Rescue Dogs</a>
+                        <!-- target means link opens in a new tab instead of just changing the one you're on-->
+                    </footer>
+                </article>      
+            </div>
+
+
+        </div>
+
+           
+        <hr>
+        <h2>Sign up for our Newsletter!</h2>
+        <form action="" method="">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name" required>
+           
+            <br>
+            <br>
+           
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name" required>
+           
+            <br>
+            <br>
+           
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+           
+            <br>
+            <br>
+           
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <!--Note this does not encrypt anything, just hides the password visually as dots-->
+            
+            <br>
+            <br>
+            
+            <label for="favourite_animal">Favourite Animal</label>
+            <input type="radio" name="favourite_animal" id="dog" value="dog">
+            <label for="dog">Dog</label>
+            <input type="radio" name="favourite_animal" id="cat" value="cat">
+            <label for="cat">Cat</label>
+            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
+            <label for="hedgehog">Hedgehog</label>
+            
+            <br>
+            <br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+            </select>
+            
+            <br>
+            <br>
+
+            <label for="bio">Biography</label>
+            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe to our Newletter!</label>
+            
+            <br>
+            <br>
+
+            <input type="submit" value="Send!">
+
+        </form>
+        <br>
+        <hr>
+    </main>
+    <footer>
+        <h2>BrightBlogSite</h2>
+        <section>
+            <nav>
+                <ul id="footer-ul">
+                    <div>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Map</a></li>
+                        <li><a href="">Contact</a></li>
+                    </div>
+                    <div>
+                        <li><a href="">History</a></li>
+                        <li><a href="">Background Information</a></li>
+                        <li><a href="">Cookie Policy</a></li>   
+                    </div>
+                    
+                </ul>
+            </nav>
+        </section>
+    </footer>
+</body>
+</html>
